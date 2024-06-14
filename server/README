@@ -1,0 +1,43 @@
+<!-- go to package.js and install all the dependencies present in both client and server -->
+open terminal and enter npm install
+
+
+open terminal and enter cd server
+then enter npm run dev
+It will start the nodemon server
+
+then open new terminal and enter cd client
+then enter npm start 
+it will start development server /FrontEnd
+
+then you can test api in anywhere, like browser or postman
+got to ROUTES to know the Perticular Routes
+
+by default server is localhost:5000
+
+<!-- To get all Vehicles -->
+/Vehicles
+
+<!-- to get single vehicle details -->
+/vehicles/:name
+
+<!-- to get cabBooking -->
+/cab_bookings
+
+<!-- to post cabBooking -->
+/cab_bookings
+
+<!-- to get previous Bookings -->
+/previousBooking
+
+<!-- to get offers -->
+/Offers
+
+<!-- to post offers -->
+/offers
+
+<!-- to get wallet Balance -->
+/wallet
+
+<!-- to put wallet Balance -->
+/wallet
